@@ -1,5 +1,6 @@
 import 'package:chatgpt/screens/homescreen.dart';
 import 'package:chatgpt/screens/loginSreen.dart';
+import 'package:chatgpt/screens/pages.dart';
 import 'package:chatgpt/screens/signUp.dart';
 import 'package:chatgpt/screens/welcome.dart';
 import 'package:flutter/material.dart';
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(),
+      home: WelcomeScreen(),
     );
   }
 }

@@ -1,4 +1,5 @@
 
+import 'package:chatgpt/screens/loginSreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
@@ -77,7 +78,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                       children: [
                                                  ElevatedButton(onPressed: ()=>{
                             
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Home()))
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>LoginScreen()))
                           }, 
                           style: ButtonStyle(
                             backgroundColor: MaterialStatePropertyAll(Color(0xff0D132B)),
